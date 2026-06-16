@@ -12,7 +12,7 @@ OBS4: ENTENDA muito bem o for da linha 24!!!!!!!!!!!
 import os
 
 def renomear_questoes_simples():
-    pasta = "80-90" # ATUALIZE O NOME DA PASTA QUE VOCÊ VAI ARRUMAR AQUI
+    pasta = "1-5-espanhol" # ATUALIZE O NOME DA PASTA QUE VOCÊ VAI ARRUMAR AQUI
     
     if not os.path.exists(pasta):
         print(f"Pasta {pasta} não encontrada!")
@@ -23,7 +23,7 @@ def renomear_questoes_simples():
         
     # Aqui você vai renomear seguindo o padrão: parte_00x.png a parte_00y.png -> questao-a.png a questao-b.png
     # atualize seu for com o número da primeira imagem "parte_AlgumaCoisa.png" até o número da última imagem "parte_AlgumaCoisa.png" mais 1 da pasta
-    for i in range(81, 91+1):
+    for i in range(6, 10+1):
         # f-string do nome antigo
         antigo = f"parte_{i:03d}.png"
 
